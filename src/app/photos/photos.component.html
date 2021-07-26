@@ -1,0 +1,5 @@
+<ul class="ion-text-center" [class.fade-in]="true" #photosContainer>
+  <li *ngFor="let src of photoSources" #photo
+      [style.background-image]="'url('+src+')'">
+  </li>
+</ul>

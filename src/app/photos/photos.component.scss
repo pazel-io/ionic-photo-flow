@@ -1,0 +1,46 @@
+ul {
+  position: relative;
+  height: 300px;
+  display: block;
+  margin: 48px 0;
+  padding: 0;
+  opacity: 0;
+  overflow: visible;
+}
+
+ul.fade-in {
+  animation: fadeIn 1s .5s forwards;
+}
+
+li {
+  list-style: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #fff;
+  background-size: cover;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .1);
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 0;
+  opacity: 0;
+  transform-origin: 0 0;
+}
+
+img {
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}

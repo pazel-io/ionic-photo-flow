@@ -23,7 +23,10 @@
     "@ionic/angular": "^5.5.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "rambda": "^6.1.0",
+    "ramda": "^0.27.1",
+    "unique-random": "^2.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.1.1",
