@@ -1,8 +1,8 @@
 export const photoSources = [
-  '/assets/alan.jpg',
-  '/assets/parham.jpg',
-  '/assets/max.jpg',
-  '/assets/matt.jpg',
-  '/assets/simon.jpg',
-  '/assets/josh.jpg',
+  '/assets/p1.jpeg',
+  '/assets/p2.jpeg',
+  '/assets/p3.png',
+  '/assets/p4.jpeg',
+  '/assets/p5.png',
+  '/assets/p6.jpeg',
 ];
